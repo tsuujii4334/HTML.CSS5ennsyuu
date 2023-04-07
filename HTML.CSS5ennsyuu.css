@@ -7,27 +7,21 @@
 }
 
 header{
-  width: 90%; /*横幅90%*/
-  padding: 15px 0;
-  margin: 0 auto;
+  width: 100%; /*横幅90%*/
+  padding: 20px 0;
   text-align: center;
-}
-
-header .heading{ /*headerタグ内のheadingクラスにのみ反映される*/
-  font-size: 32px;
 }
 
 .nav-list{
   text-align: center;
-  padding: 10px 0;
+  padding: 15px 0;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
   border-top: solid 1px black;
   border-bottom: solid 1px black;
 }
 
 .nav-list-item{
+  list-style: none;  
   display: inline-block;
   margin: 0 20px;
 }
@@ -42,7 +36,6 @@ header .heading{ /*headerタグ内のheadingクラスにのみ反映される*/
   justify-content: center;/*子要素の横並び・中央寄せ*/
   flex-wrap: wrap;
   margin: 0 auto;/*中央寄せ(左右に余白がないとできない)*/
-  line-height: 3000px;
 }
 
 .color1{
